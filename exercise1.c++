@@ -3,21 +3,21 @@ using namespace std;
 
 int main()
 {
-    // Array declaration and separate initialization
-    int arr[6];
+    // Aay declaration and separate initialization
+    int A[6];
 
-    arr[5]=5;
-    arr[0]=9;
-    arr[1]=15;
-    arr[2]=7;
-    arr[3]=12;
-    arr[4]=4;
+    A[5]=5;
+    A[0]=9;
+    A[1]=15;
+    A[2]=7;
+    A[3]=12;
+    A[4]=4;
 
-    // Iterate over the array
+    // Iterate over the Aay
     for(int idx=5; idx>=1; idx--)
     {
         // Print out each element in a new line
-        cout << arr[idx] << endl;
+        cout << A[idx] << endl;
     }
     return 0;
 }
