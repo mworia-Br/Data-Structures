@@ -14,7 +14,7 @@ int main()
     arr[4]=4;
 
     // Iterate over the array
-    for(int idx=0; idx<5; idx++)
+    for(int idx=5; idx>=1; idx--)
     {
         // Print out each element in a new line
         cout << arr[idx] << endl;
